@@ -11,7 +11,7 @@ and clients for Bedrock Linux 1.0alpha3 Bosco.
 	- [Sudo PATH](#sudo-path)
 	- [Proprietary Nvidia Drivers](#proprietary-nvidia-drivers)
 	- [DNS from the core does not work](#dns)
-	- [/etc/fd errors](#etc-fd-errors)
+	- [/dev/fd errors](#dev-fd-errors)
 - [Client specific issues](#client-specific)
 	- [Debian-based Linux distributions](#debian-based)
 		- [Ubuntu/Upstart fix](#upstart-fix)
@@ -77,7 +77,7 @@ copy them into the core.
 
 TODO: do the above and provide the libraries in the instructions here
 
-#### {id="etc-fd-errors"} /etc/fd errors
+#### {id="dev-fd-errors"} /dev/fd errors
 
 If you receive errors along these lines:
 
