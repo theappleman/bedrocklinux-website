@@ -304,6 +304,6 @@ Gentoo stages are ready-to-go Bedrock clients. They also contain a statically
 linked busybox (at `/bin/bb`) that can be used in the Bedrock core.
 
 To use OpenRC services, add the following to bedrock's `/etc/init.d/rcS.clients`
-(prefix with `brc ~(name-of-gentoo-client~)`:
+(prefix with `brc <name-of-gentoo-client>`?):
 
 	rc default
