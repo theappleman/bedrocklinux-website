@@ -15,6 +15,7 @@ as a client.
 - [Debian-based Linux distributions](#debian-based)
 - [Arch Linux](#arch)
 - [Fedora](#fedora)
+- [Gentoo](#gentoo)
 
 ## {id="any"} Any Linux Distribution
 
@@ -301,3 +302,8 @@ Clean up the temporary febootstrap directory:
 ## {id="gentoo"} Gentoo
 Gentoo stages are ready-to-go Bedrock clients. They also contain a statically
 linked busybox (at `/bin/bb`) that can be used in the Bedrock core.
+
+To use OpenRC services, add the following to bedrock's `/etc/init.d/rcS.clients`
+(prefix with `brc ~(name-of-gentoo-client~)`:
+
+	rc default
