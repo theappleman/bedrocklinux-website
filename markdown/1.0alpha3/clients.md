@@ -241,7 +241,7 @@ command, at which point you will be done installing Fedora as a client (ie, you
 can skip the rest of the steps below). Otherwise, you will have to skip this
 step and following all of the following steps.
 
-	{class="rcmd"} febootstrap fedora-~(RELEASE-NUMBER~)~(PATH~)
+	{class="rcmd"} febootstrap fedora-~(RELEASE-NUMBER~) ~(PATH~)
 
 For example, to install Fedora 17 (beefy miracle) to `/var/chroot/beefy`:
 
