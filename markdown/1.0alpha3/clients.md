@@ -275,7 +275,7 @@ Compile febootstrap.
 	{class="cmd"} make
 
 If you receive an error about `-all-static`, note that at least one person who
-had such an error reported some succes compiling febootstrap by commenting out
+had such an error reported some success compiling febootstrap by commenting out
 the line containing `init_LDFLAGS = -all-static` from
 `/tmp/febootstrap-VERSION/helper/Makefile` and replacing it with `init_LDFLAGS
 = -static.`
@@ -297,3 +297,7 @@ For example, to install Fedora 17 (beefy miracle) to /var/chroot/beefy:
 Clean up the temporary febootstrap directory:
 
 	{class="rcmd"} rm -rf /tmp/febootstrap-~(VERSION~)
+
+## {id="gentoo"} Gentoo
+Gentoo stages are ready-to-go Bedrock clients. They also contain a statically
+linked busybox (at `/bin/bb`) that can be used in the Bedrock core.
