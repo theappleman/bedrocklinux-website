@@ -24,6 +24,9 @@ should be possible to set it up on non-x86 architecture with only minor changes
 into ensuring this was an option and no testing was done to actually check that
 this is possible.
 
+There are only four machine-specific executables required in bedrock; those
+being the kernel, busybox, fsck for your chosen filesystem, and bedrock's `brc`.
+
 ## {id="cpu-speed"} CPU Speed
 
 Prior releases have been show to run smoothly on both a 1.6GHz Intel Atom and
