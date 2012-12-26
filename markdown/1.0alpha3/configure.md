@@ -230,7 +230,7 @@ settings set in a framework section.  For example, if there is a framework
 section called `debclient`, and you would like a Debian Squeeze client to
 utilize the settings specified there:
 
-	frmaework = debclient
+	framework = debclient
 
 #### {id="brclienits-genera-example"} Example
 
@@ -336,6 +336,7 @@ Some programs will expect these files to be populated.  Note that you do not
 necessarily have to make these the same in all clients, but if you cannot
 think of a reason to differentiate them, it is probably best to ensure they
 are the same.
+
 	/etc/hostname,/etc/hosts
 
 #### {id="share-modules"} modules
